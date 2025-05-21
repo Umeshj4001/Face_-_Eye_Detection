@@ -79,8 +79,8 @@ def main():
 
     # Load Haar Cascade classifiers with specified paths
     global face_classifier, eye_classifier
-    face_cascade_path = r"C:\Users\umesh\FS_Data_Science\AI\OpenCV\HaarCascade\haarcascade_frontalface_default.xml"
-    eye_cascade_path = r"C:\Users\umesh\FS_Data_Science\AI\OpenCV\HaarCascade\haarcascade_eye.xml"
+    face_cascade_path = "haarcascade_frontalface_default.xml"
+    eye_cascade_path = "haarcascade_eye.xml"
     
     face_classifier = load_cascade_classifier(face_cascade_path)
     eye_classifier = load_cascade_classifier(eye_cascade_path)
